@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Container, CardGroup, Card, Button, } from 'react-bootstrap';
+import { Container, CardGroup, Card, } from 'react-bootstrap';
 import '../App.css';
 
 export default class Home extends Component {
@@ -16,13 +16,13 @@ export default class Home extends Component {
             />
             <Card.Body className='cardbody'>
               <Card.Title>Мы Упакуем</Card.Title>
-              <Button variant='secondary'>About</Button>
+              <a href="http://localhost:3000/contacts" class="btn btn-primary btn-lg" rel="noreferrer">Contact us</a>
             </Card.Body>
           </Card>
           <Card className='card'>
             <Card.Body className='cardbody'>
               <Card.Title>Мы Перевезем</Card.Title>
-              <Button variant='secondary'>About</Button>
+              <a href="http://localhost:3000/about" class="btn btn-primary btn-lg" target="_blank" rel="noreferrer">About us</a>
             </Card.Body>
             <Card.Img
             className='img'
@@ -36,7 +36,7 @@ export default class Home extends Component {
             />
             <Card.Body className='cardbody'>
               <Card.Title>Мы Соберем</Card.Title>
-              <Button variant='secondary'>About</Button>
+              <a href="http://localhost:3000/blog" class="btn btn-primary btn-lg" target="_blank" rel="noreferrer">Blog</a>
             </Card.Body>
           </Card>
         </CardGroup>

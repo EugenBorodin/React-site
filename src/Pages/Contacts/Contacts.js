@@ -47,21 +47,21 @@ function FeedbackForm() {
             <i className="fas fa-map-marker-alt"></i>
 
             {/* topic - заголовок, text-one, text-two - текст */}
-            <div className="topic">Адрес</div>
-            <div className="text-one">г. Москва</div>
-            <div className="text-two">Пресненская наб., 8 стр. 1</div>
+            <div className="topic">Address:</div>
+            <div className="text-one">Valencia</div>
+            <div className="text-two">Andreas Pujol 9</div>
           </div>
           <div className="phone details">
             <i className="fas fa-phone-alt"></i>
-            <div className="topic">Телефон</div>
-            <div className="text-one">8-800-000-00-00</div>
-            <div className="text-two">8-900-000-00-00</div>
+            <div className="topic">mobile:</div>
+            <div className="text-one">+49 176 415 98 000</div>
+            <div className="text-two">+34 122 333 55 000</div>
           </div>
           <div className="email details">
             <i className="fas fa-envelope"></i>
-            <div className="topic">Email</div>
-            <div className="text-one">support@site.com</div>
-            <div className="text-two">admin@site.com</div>
+            <div className="topic">Email:</div>
+            <div className="text-one">salamanka@gmail.com</div>
+            <div className="text-two">dostavka@gmail.com</div>
           </div>
         </div>
 
@@ -84,14 +84,16 @@ function FeedbackForm() {
             <div className="input-box">
               <input
                 type="text"
+                name='name'
                 placeholder="Ваше имя"
                 value={name}
                 onChange={(event) => setName(event.target.value)}
+                required
               />
             </div>
             <div className="input-box">
               <input
-              type="text"
+              type="email"
               placeholder="Введите email"
               value={email}
               onChange={(event) => setEmail(event.target.value)}

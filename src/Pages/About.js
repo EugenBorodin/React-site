@@ -25,7 +25,7 @@ export default class About extends Component {
             <Col sm={9}>
               <Tab.Content>
                 <Tab.Pane eventKey="first">
-                      <img src="https://www.shutterstock.com/image-illustration/salamanca-skyline-watercolor-splatters-clipping-260nw-411283558.jpg"/>
+                      <img src="https://static.tildacdn.com/tild3662-3930-4164-a632-623832343663/truck-animation.gif"/>
                       <p className='text'>
                         Добро пожаловать в нашу компанию по перевозке малогабаритных грузов и оказанию услуг по помощи
                         в переезде и сборке мебели! Мы - ваш надежный партнер для всех ваших транспортных и логистических потребностей в Европе.
@@ -38,7 +38,7 @@ export default class About extends Component {
                       </p>
                 </Tab.Pane>
                 <Tab.Pane eventKey="second">
-                  <img src="https://federal-tl.ru/netcat_files/userfiles/dostavka-gruzov.jpg" />
+                  <img src="https://www.oraltrans.kz/content/images/us10.png" />
                   <p className='text'>
                     Наша компания специализируется на перевозке малогабаритных грузов по всей Европе.
                     Независимо от того, требуется ли вам доставка товаров для вашего бизнеса или перевозка личных вещей,
@@ -53,7 +53,7 @@ export default class About extends Component {
                   </p>
                 </Tab.Pane>
                 <Tab.Pane eventKey="third">
-                  <img src="https://bash-pereezd.ru/upload/medialibrary/5b6/5b6317dab62104c2d88263fab015eacb.jpg" />
+                  <img src="https://lh6.googleusercontent.com/-e_mSOgIYL6c/AAAAAAAAAAI/AAAAAAAAAWs/cJ1iZinmSzE/photo.jpg" />
                   <p className='text'>
                     Наши опытные сотрудники готовы предложить вам услугу сборки мебели.
                     Мы позаботимся о сборке всех ваших предметов мебели,
