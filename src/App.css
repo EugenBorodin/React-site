@@ -36,3 +36,31 @@
     transform: rotate(360deg);
   }
 }
+
+.card {
+  margin: 10px;
+  border-block-color: rgb(170, 50, 220, .6);writing-mode: horizontal-tb;direction: rtl;
+}
+
+.cardbody {
+  background-color: rgb(250, 248, 248);
+  border-radius: 15px;
+}
+.sal {
+  text-shadow: #FC0 1px 0 10px;
+  text-align: center;
+  font-size: 70px;
+}
+
+.text {
+  font-family: monospace;
+  font-size: 22px;
+  text-indent: 30px;
+}
+
+body {
+  background: linear-gradient(45deg, #fff1eb, #ace0f9);
+  display: flex;
+  justify-content: center; /* чтобы контейнер */
+  align-items: center; /* был по центру */
+}
