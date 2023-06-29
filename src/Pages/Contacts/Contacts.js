@@ -39,14 +39,13 @@ function FeedbackForm() {
   return (
     <div className="container">
       <div className="content">
-        {/* Левая колонка: адрес, телефоны, email. Можете добавить свое */}
+        {/* Левая колонка: адрес, телефоны, email */}
         <div className="left-side">
           <div className="address details">
 
-            {/* Вместо классов: название шрифтовых иконок (fontawesome.com) */}
             <i className="fas fa-map-marker-alt"></i>
 
-            {/* topic - заголовок, text-one, text-two - текст */}
+            {/* адрес */}
             <div className="topic">Address:</div>
             <div className="text-one">Valencia</div>
             <div className="text-two">Andreas Pujol 9</div>
@@ -65,7 +64,7 @@ function FeedbackForm() {
           </div>
         </div>
 
-        {/* Правая колонка: сама форма */}
+        {/* Правая колонка: форма */}
         <div className="right-side">
 
           {/* Заголовок для формы */}
@@ -80,7 +79,6 @@ function FeedbackForm() {
           {/* Форма обратной связи */}
           <form onSubmit={handleSubmit}>
 
-            {/* Каждый input для выравнивания вкладываем в блок input-box */}
             <div className="input-box">
               <input
                 type="text"
@@ -97,6 +95,7 @@ function FeedbackForm() {
               placeholder="Введите email"
               value={email}
               onChange={(event) => setEmail(event.target.value)}
+              required
               />
             </div>
             <div className="input-box">
@@ -111,6 +110,7 @@ function FeedbackForm() {
               placeholder="Сообщение"
               value={message}
               onChange={(event) => setMessage(event.target.value)}
+              required
               ></textarea>
             </div>
             <div className="button">
