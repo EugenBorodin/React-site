@@ -6,6 +6,7 @@ export default class Blog extends Component {
     return (
       <div>
         <img src='https://cdn.wallpapersafari.com/84/22/Jz6bAs.gif'/>
+        {/* закончить */}
       </div>
     )
   }

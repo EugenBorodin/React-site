@@ -6,7 +6,7 @@ export default class Home extends Component {
   render() {
     return (
       <Container>
-        <h1 className='sal'>Salamanca Logistic</h1>
+        <h1 className='sal'>Salamanca Logistics</h1>
         <h2 className='text-center m-4'>Наши Услуги</h2>
         <CardGroup>
           <Card className='card'>

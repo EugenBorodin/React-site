@@ -12,12 +12,12 @@ function FeedbackForm() {
     event.preventDefault();
 
     try {
-      const url = `https://api.telegram.org/bot6040738846:AAG-x5IAbgBT2XgQHq3gJ8Qx3ePnswVqRHQ/sendMessage`; // Замените YOUR_BOT_TOKEN на токен вашего бота
+      const url = `https://api.telegram.org/bot6040738846:AAG-x5IAbgBT2XgQHq3gJ8Qx3ePnswVqRHQ/sendMessage`; // Замени YOUR_BOT_TOKEN на токен вашего бота
 
       const text = `Имя: ${name}\nEmail: ${email}\nСообщение: ${message}`;
 
       const response = await axios.post(url, {
-        chat_id: '95103157', // Замените YOUR_CHAT_ID на ID вашего чата с ботом
+        chat_id: '95103157', // Замени YOUR_CHAT_ID на ID вашего чата с ботом
         text: text,
       });
 
