@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Button, Container, FormControl, Navbar, Nav, Form } from "react-bootstrap";
 import logo from './logo195.png';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import Home from '../../Pages/Home'
 import About from '../../Pages/About'
 import Blog from '../../Pages/Blog'
@@ -41,14 +41,14 @@ export default class Header extends Component {
                         </Navbar.Collapse>
                     </Container>
                 </Navbar>
-                <BrowserRouter basename='/React-site'>
+                <HashRouter basename='/React-site'>
                     <Routes>
                         <Route path="/" element={<Home />} />
                         <Route path="/about" element={<About />} />
                         <Route path="/contacts" element={<Contacts />} />
                         <Route path="/blog" element={<Blog />} />
                     </Routes>
-                </BrowserRouter>
+                </HashRouter>
             </div>
         );
     }
