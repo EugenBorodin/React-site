@@ -41,14 +41,14 @@ export default class Header extends Component {
                         </Navbar.Collapse>
                     </Container>
                 </Navbar>
-                <HashRouter basename='/React-site'>
+                {/* <HashRouter basename='/React-site'>
                     <Routes>
                         <Route path="/" element={<Home />} />
                         <Route path="/about" element={<About />} />
                         <Route path="/contacts" element={<Contacts />} />
                         <Route path="/blog" element={<Blog />} />
                     </Routes>
-                </HashRouter>
+                </HashRouter> */}
             </div>
         );
     }
