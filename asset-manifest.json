@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "./static/css/main.11827660.css",
-    "main.js": "./static/js/main.71c93a16.js",
-    "static/js/787.7ec122fa.chunk.js": "./static/js/787.7ec122fa.chunk.js",
-    "static/media/logo195.png": "./static/media/logo195.5868348b3e35c4309e30.png",
-    "index.html": "./index.html",
-    "main.11827660.css.map": "./static/css/main.11827660.css.map",
-    "main.71c93a16.js.map": "./static/js/main.71c93a16.js.map",
-    "787.7ec122fa.chunk.js.map": "./static/js/787.7ec122fa.chunk.js.map"
+    "main.css": "./https://eugenborodin.github.io/React-site/static/css/main.11827660.css",
+    "main.js": "./https://eugenborodin.github.io/React-site/static/js/main.e0f856af.js",
+    "static/js/787.7ec122fa.chunk.js": "./https://eugenborodin.github.io/React-site/static/js/787.7ec122fa.chunk.js",
+    "static/media/logo195.png": "./https://eugenborodin.github.io/React-site/static/media/logo195.5868348b3e35c4309e30.png",
+    "index.html": "./https://eugenborodin.github.io/React-site/index.html",
+    "main.11827660.css.map": "./https://eugenborodin.github.io/React-site/static/css/main.11827660.css.map",
+    "main.e0f856af.js.map": "./https://eugenborodin.github.io/React-site/static/js/main.e0f856af.js.map",
+    "787.7ec122fa.chunk.js.map": "./https://eugenborodin.github.io/React-site/static/js/787.7ec122fa.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.11827660.css",
-    "static/js/main.71c93a16.js"
+    "static/js/main.e0f856af.js"
   ]
 }
