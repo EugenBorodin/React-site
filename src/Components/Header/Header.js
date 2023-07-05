@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import { Button, Container, FormControl, Navbar, Nav, Form } from "react-bootstrap";
 import logo from './logo195.png';
-// import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
+// import { BrowserRouter as HashRouter, Routes, Route } from 'react-router-dom';
 // import Home from '../../Pages/Home'
 // import About from '../../Pages/About'
 // import Blog from '../../Pages/Blog'
@@ -25,10 +26,10 @@ export default class Header extends Component {
                         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                         <Navbar.Collapse id="responsive-navbar-nav">
                             <Nav className="me-auto">
-                                <Nav.Link href="/" > Home </Nav.Link>
-                                <Nav.Link href="/about" > About us </Nav.Link>
-                                <Nav.Link href="/contacts" > Contacts </Nav.Link>
-                                <Nav.Link href="/blog" > Blog </Nav.Link>
+                                <NavLink to="/" > Home </NavLink>
+                                <NavLink to="/about" > About us </NavLink>
+                                <NavLink to="/contacts" > Contacts </NavLink>
+                                <NavLink to="/blog" > Blog </NavLink>
                             </Nav>
                             <Form className='d-flex'>
                                 <FormControl
@@ -41,14 +42,14 @@ export default class Header extends Component {
                         </Navbar.Collapse>
                     </Container>
                 </Navbar>
-                {/* <Router>
+                {/* <HashRouter>
                     <Routes>
                         <Route path="/" element={<Home />} />
                         <Route path="/about" element={<About />} />
                         <Route path="/contacts" element={<Contacts />} />
                         <Route path="/blog" element={<Blog />} />
                     </Routes>
-                </Router> */}
+                </HashRouter> */}
             </div>
         );
     }
