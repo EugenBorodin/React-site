@@ -2,11 +2,8 @@ import React, { Component } from 'react';
 import { Button, Container, FormControl, Navbar, Nav, Form } from "react-bootstrap";
 import logo from './logo195.png';
 import { NavLink } from 'react-router-dom';
-// import { BrowserRouter as HashRouter, Routes, Route } from 'react-router-dom';
-// import Home from '../../Pages/Home'
-// import About from '../../Pages/About'
-// import Blog from '../../Pages/Blog'
-// import Contacts from '../../Pages/Contacts/Contacts'
+import "../Header/Header.css"
+
 
 export default class Header extends Component {
     render() {
@@ -25,11 +22,11 @@ export default class Header extends Component {
                         </Navbar.Brand>
                         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                         <Navbar.Collapse id="responsive-navbar-nav">
-                            <Nav className="me-auto">
-                                <NavLink to="/" > Home </NavLink>
-                                <NavLink to="/about" > About us </NavLink>
-                                <NavLink to="/contacts" > Contacts </NavLink>
-                                <NavLink to="/blog" > Blog </NavLink>
+                            <Nav className="mx-auto custom-nav">
+                                <NavLink className="custom-nav-link" to="/">Home</NavLink>
+                                <NavLink className="custom-nav-link" to="/about">About us</NavLink>
+                                <NavLink className="custom-nav-link" to="/contacts">Contacts</NavLink>
+                                <NavLink className="custom-nav-link" to="/reviews">Reviews</NavLink>
                             </Nav>
                             <Form className='d-flex'>
                                 <FormControl
@@ -42,14 +39,6 @@ export default class Header extends Component {
                         </Navbar.Collapse>
                     </Container>
                 </Navbar>
-                {/* <HashRouter>
-                    <Routes>
-                        <Route path="/" element={<Home />} />
-                        <Route path="/about" element={<About />} />
-                        <Route path="/contacts" element={<Contacts />} />
-                        <Route path="/blog" element={<Blog />} />
-                    </Routes>
-                </HashRouter> */}
             </div>
         );
     }

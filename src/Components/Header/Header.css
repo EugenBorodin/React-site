@@ -1,0 +1,17 @@
+.custom-nav {
+    /* background-color: #333; Цвет фона навигационной панели */
+  }
+  
+  .custom-nav-link {
+    color: #fff; /* Цвет текста ссылок */
+    font-weight: bold; /* Жирный шрифт */
+    margin-right: 15px; /* Отступ между ссылками */
+    text-decoration: none; /* Удаление подчеркивания ссылок */
+    transition: color 0.3s; /* Плавное изменение цвета при наведении */
+    font-size: 25px;
+  }
+  
+  .custom-nav-link:hover {
+    color: #ffcc00; /* Изменение цвета при наведении */
+  }
+  

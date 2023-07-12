@@ -6,6 +6,7 @@ import '../App.css';
 export default class About extends Component {
   render() {
     return (
+      <>
       <Container>
         <Tab.Container id="example" defaultActiveKey="first">
           <Row>
@@ -62,12 +63,12 @@ export default class About extends Component {
                     что ваша мебель будет собрана качественно и точно в соответствии с вашими требованиями.
                   </p>
                 </Tab.Pane>
-
               </Tab.Content>
             </Col>
           </Row>
         </Tab.Container>
       </Container>
+      </>
     )
   }
 }
